@@ -8,3 +8,8 @@ def calculate_insurance_cost(age, sex, bmi, num_of_children, smoker, name):
     
     # Return the estimated cost
     return estimated_cost
+# Estimate Maria's insurance cost by calling the function with her details
+maria_insurance_cost = calculate_insurance_cost(age=28, sex=0, bmi=26.2, num_of_children=3, smoker=0, name='Maria')
+
+# Estimate Omar's insurance cost by calling the function with his details
+omar_insurance_cost = calculate_insurance_cost(age=35, sex=1, bmi=22.2, num_of_children=0, smoker=1, name='Omar')
