@@ -27,3 +27,6 @@ def calculate_cost_difference(cost1, cost2):
     
     # Return the difference
     return difference
+    
+# Calculate the difference between Maria's and Omar's insurance costs
+difference_between_costs = calculate_cost_difference(cost1=maria_insurance_cost, cost2=omar_insurance_cost)
