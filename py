@@ -13,3 +13,17 @@ maria_insurance_cost = calculate_insurance_cost(age=28, sex=0, bmi=26.2, num_of_
 
 # Estimate Omar's insurance cost by calling the function with his details
 omar_insurance_cost = calculate_insurance_cost(age=35, sex=1, bmi=22.2, num_of_children=0, smoker=1, name='Omar')
+
+# Estimate Ivar's insurance cost by calling the function with their details
+ivar_insurance_cost = calculate_insurance_cost(age=20, sex=0, bmi=22.2, num_of_children=0, smoker=0, name='Ivar')
+
+# Create calculate_cost_difference() function to find the difference between two insurance costs
+def calculate_cost_difference(cost1, cost2):
+    # Calculate the absolute difference between the two costs
+    difference = abs(cost1 - cost2)
+    
+    # Print the difference in insurance costs
+    print(f"The difference between Maria's and Omar's insurance costs is {difference} dollars.")
+    
+    # Return the difference
+    return difference
